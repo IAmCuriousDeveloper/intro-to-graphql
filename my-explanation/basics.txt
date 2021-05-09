@@ -1,0 +1,22 @@
+what is graphql ?
+-> its a strongly typed query language and runtime for your data.
+it sits infront of your api
+its open source and created by facebook
+it gives power to the client to describe exactly what data you want
+its just like a typeSCript for your data
+excellent developer tooling and experiences
+it can sit infront of any api
+ecosystem is fantastic
+
+
+2.graphql vs rest
+1.graphql only has one url . it doesnot require (resources + verb) combo . the request details are in post body (sometimes get)
+2.in rest shape and size of your data resources are determined by the server. in graphql its determined by the query (request) like its dynamic
+3.you have to make multiple api calls to retrieve relational data with graphql you can start with the entry resources and traverse all the connections in one request
+4.in rest a single request will execute on the controller on the server, in graphql a request might execute many resolvers on the server
+
+
+
+
+
+
